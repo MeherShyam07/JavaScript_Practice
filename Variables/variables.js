@@ -61,3 +61,7 @@ console.log(PI);
 
 
 
+var name = "Am going to crack the interview and come up with a good package";
+var words = name.split(" ");
+console.log(words.length);
+
