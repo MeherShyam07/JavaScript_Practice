@@ -65,3 +65,62 @@ var name = "Am going to crack the interview and come up with a good package";
 var words = name.split(" ");
 console.log(words.length);
 
+let a = 10;
+let b = "20";
+console.log(a * b); //In JavaScript, when you multiply a number (a) by a string that can be converted to a number (b), JavaScript will attempt to convert the string to a number before performing the multiplication. In this case, the string "20" can be converted to the number 20, so the result of a * b will be 200.
+
+console.log("10" - "abc"); 
+
+console.log(typeof NaN); 
+console.log(5 == 6 ); //
+console.log(5 == 5); //
+console.log(5 === 5);  //
+console.log(5 === "5"); //
+
+console.log(boolean(0)); //false
+console.log(boolean(1)); //true
+console.log(boolean("")); //false
+console.log(boolean("Hello")); //true       
+console.log(boolean(null)); //false
+console.log(boolean(undefined)); //false    
+console.log(boolean(NaN)); //false
+console.log(boolean([])); //true
+console.log(boolean({})); //true
+console.log(boolean(function() {})); //true
+
+console.log(NaN == undefined); //false
+console.log(NaN == NaN); //false
+console.log(undefined == undefined); //true
+console.log(undefined == null); //true
+
+const city;
+city = "New York"; // Error: Missing initializer in const declaration
+
+let a = 10;
+
+{
+    let a = 20;
+}
+
+console.log(a); //
+
+let a = 10;
+
+{
+    let a = 20;
+    console.log(a); //
+}
+
+console.log(x); //
+const x = 10; // Error: Cannot access 'x' before initialization
+
+
+var p = 10;
+
+function test() {
+     p = 20;
+    //console.log(p);
+}
+test(); //
+
+console.log(p); //20
