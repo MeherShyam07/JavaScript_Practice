@@ -1,7 +1,7 @@
 
 //consider the following code snippet that attempts to parse JSON data.
 	//identify and handle any potential errors that may occur during execution
-	// input : const jsonData ='{"name"; "Jhon", "age":30}'; output : Parsed JSON: {name: 'Jhon', age:30 }
+	// input : const jsonData ='{"name": "Jhon", "age":30}'; output : Parsed JSON: {name: 'Jhon', age:30 }
 
 const jsonData = '{"name": "Jhon", "age": 30}'; // Corrected JSON format
 
